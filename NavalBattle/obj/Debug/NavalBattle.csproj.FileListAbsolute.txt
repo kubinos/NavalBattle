@@ -1,0 +1,13 @@
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\bin\Debug\NavalBattle.exe.config
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\bin\Debug\NavalBattle.exe
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\bin\Debug\NavalBattle.pdb
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.csprojResolveAssemblyReference.cache
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\MainWindow.baml
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\MainWindow.g.cs
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\App.g.cs
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle_MarkupCompile.cache
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.g.resources
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.Properties.Resources.resources
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.csproj.GenerateResource.Cache
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.exe
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.pdb
