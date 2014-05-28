@@ -11,3 +11,18 @@ C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.Pr
 C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.csproj.GenerateResource.Cache
 C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.exe
 C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\NavalBattle.pdb
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\bin\Debug\NavalBattle.exe.config
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.exe
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.pdb
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\bin\Debug\NavalBattle.exe
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\bin\Debug\NavalBattle.pdb
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.csprojResolveAssemblyReference.cache
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\Game.baml
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\MainWindow.baml
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\Game.g.cs
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\MainWindow.g.cs
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\App.g.cs
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle_MarkupCompile.cache
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.g.resources
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.Properties.Resources.resources
+O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.csproj.GenerateResource.Cache
