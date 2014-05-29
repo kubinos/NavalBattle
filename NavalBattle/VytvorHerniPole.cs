@@ -12,6 +12,5 @@ namespace NavalBattle
         {
             return false;
         }
-
     }
 }

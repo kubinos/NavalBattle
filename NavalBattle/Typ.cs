@@ -6,37 +6,40 @@ using System.Threading.Tasks;
 
 namespace NavalBattle
 {
-    class Lod
+    class Typ
     {
-        private int rotace;
+        private string typLodi;
+        private string[] pozice;
 
-        public void Soucasti()
+        public void Typ(string typLodi, string[] pozice)
         {
-
+            this.typLodi = typLodi;
+            this.pozice = pozice;
         }
 
-        public Typ typLodi
-        {
-            get
-            {
-                return Typ.;    
-            }
-            set
-            {
-                    
-            }
-        }
-
-        public int Rotace
+        public string[] Pozice
         {
             get
             {
-                return rotace;
+                return pozice;
+            }
+            set
+            {
+                
+            }
+        }
+
+        public string TypLodi
+        {
+            get
+            {
+                return typLodi;
             }
             set
             {
 
             }
         }
+
     }
 }

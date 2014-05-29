@@ -12,13 +12,22 @@ namespace NavalBattle
         {
             return false;
         }
+        
         public bool JeLod()
         {
             return false;
         }
-        public bool Lod()
+
+        public Lod Lod
         {
-            return false;
+            get
+            {
+                return
+            }
+            set
+            {
+
+            }
         }
     }
 }
