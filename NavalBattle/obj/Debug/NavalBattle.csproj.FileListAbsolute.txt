@@ -26,3 +26,5 @@ O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle_MarkupCompile
 O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.g.resources
 O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.Properties.Resources.resources
 O:\Paciik\School\PRG\NavalBattle\NavalBattle\obj\Debug\NavalBattle.csproj.GenerateResource.Cache
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\Game.baml
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\Game.g.cs
