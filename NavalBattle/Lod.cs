@@ -8,35 +8,21 @@ namespace NavalBattle
 {
     class Lod
     {
-        private int rotace;
+        private Typ typLodi;
+        private int rotaceLodi;
+        private Souradnice referencniBod;
+        private List<bool> sestreleneSoucasti; 
 
-        public void Soucasti()
+        public Lod(Typ typLodi, Souradnice referencniBod, int rotaceLodi)
         {
-
-        }
-
-        public Typ typLodi
-        {
-            get
+            sestreleneSoucasti = new List<bool>();
+            for (int i = 0; i < typLodi.souradnice.Count; i++)
             {
-                return Typ.;    
+                sestreleneSoucasti.Add(false);
             }
-            set
-            {
-                    
-            }
-        }
-
-        public int Rotace
-        {
-            get
-            {
-                return rotace;
-            }
-            set
-            {
-
-            }
-        }
+            this.typLodi = typLodi;
+            this.referencniBod = referencniBod;
+            this.rotaceLodi = rotaceLodi;
+        }        
     }
 }

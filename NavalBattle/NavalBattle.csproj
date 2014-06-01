@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Souradnice.cs" />
     <Compile Include="Typ.cs" />
     <Compile Include="VytvorHerniPole.cs" />
     <Page Include="Game.xaml">

@@ -8,25 +8,56 @@ namespace NavalBattle
 {
     class Policko
     {
-        public bool JeObjeveno()
+        private Lod lod;
+        private int soucastLodi;
+        private bool jeObjeveno;
+        private bool jeLod;
+
+        public Policko()
         {
-            return false;
+            this.lod = null;
+            this.soucastLodi = -1;
         }
-        
-        public bool JeLod()
+
+        public Policko(Lod lod, int soucastLodi)
         {
-            return false;
+            this.lod = lod;
+            this.soucastLodi = soucastLodi;
+        }
+
+        public bool JeObjeveno
+        {
+            get
+            {
+                return jeObjeveno;
+            }
+            set
+            {
+                jeObjeveno = value;
+            }
+        }
+
+        public bool JeLod
+        {
+            get
+            {
+                return jeLod;
+            }
+            set
+            {
+                jeLod = value;
+            }
         }
 
         public Lod Lod
         {
             get
             {
-                return
+                return lod;
             }
             set
             {
-
+                lod = value;
             }
         }
     }

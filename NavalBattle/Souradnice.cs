@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace NavalBattle
 {
-    class VytvorHerniPole
+    struct Souradnice
     {
-        private bool DetekceKolize(Policko policko)
+        public byte x;
+        public byte y;
+        public Souradnice(byte x, byte y)
         {
-            return false;
+            this.x = x;
+            this.y = y;
         }
+
     }
 }

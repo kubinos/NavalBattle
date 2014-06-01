@@ -8,38 +8,13 @@ namespace NavalBattle
 {
     class Typ
     {
-        private string typLodi;
-        private string[] pozice;
+        private string nazevTypuLodi;
+        public List<Souradnice> souradnice = new List<Souradnice>();
 
-        public void Typ(string typLodi, string[] pozice)
+        public Typ(string nazevTypuLodi, List<Souradnice> souradnice)
         {
-            this.typLodi = typLodi;
-            this.pozice = pozice;
+            this.nazevTypuLodi = nazevTypuLodi;
+            this.souradnice = souradnice;
         }
-
-        public string[] Pozice
-        {
-            get
-            {
-                return pozice;
-            }
-            set
-            {
-                
-            }
-        }
-
-        public string TypLodi
-        {
-            get
-            {
-                return typLodi;
-            }
-            set
-            {
-
-            }
-        }
-
     }
 }
