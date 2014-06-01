@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Hra.cs" />
     <Compile Include="Souradnice.cs" />
     <Compile Include="Typ.cs" />
     <Compile Include="VytvorHerniPole.cs" />
@@ -71,7 +72,7 @@
     <Compile Include="Game.xaml.cs">
       <DependentUpon>Game.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Hra.cs" />
+    <Compile Include="HerniPole.cs" />
     <Compile Include="Lod.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

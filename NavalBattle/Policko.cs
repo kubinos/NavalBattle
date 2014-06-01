@@ -25,6 +25,18 @@ namespace NavalBattle
             this.soucastLodi = soucastLodi;
         }
 
+        public int JeSoucastLodi
+        {
+            get
+            {
+                return soucastLodi;
+            }
+            set
+            {
+                soucastLodi = value;
+            }
+        }
+
         public bool JeObjeveno
         {
             get
