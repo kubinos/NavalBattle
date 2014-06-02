@@ -9,12 +9,15 @@ namespace NavalBattle
     class Policko
     {
         private Lod lod;
+        private Souradnice souradnicePolicka;
         private int soucastLodi;
         private bool jeObjeveno;
         private bool jeLod;
 
-        public Policko()
+        public Policko(byte y, byte x)
         {
+            souradnicePolicka.x = x;
+            souradnicePolicka.x = y;
             this.lod = null;
             this.soucastLodi = -1;
         }
@@ -23,6 +26,14 @@ namespace NavalBattle
         {
             this.lod = lod;
             this.soucastLodi = soucastLodi;
+        }
+
+        public Souradnice SouradnicePolicka
+        {
+            get
+            {
+                return souradnicePolicka;
+            }
         }
 
         public int JeSoucastLodi

@@ -11,22 +11,29 @@ namespace NavalBattle
         private byte height;
         private byte width;
         private List<Lod> lode = new List<Lod>();
-        private List<Policko> policko = new List<Policko>();
+        public static List<Policko> policka { private set; public get; }
+
+        public static HerniPole()
+        {
+            policka = new List<Policko>();
+        }
 
         public HerniPole(byte height = 10, byte width = 10)    
         {
+            policka = new List<Policko>();
             this.height = height;
             this.width = width;
-            for (int i = 0; i < height*width; i++)
-                policko.Add(new Policko());
+            for (byte i = 0; i < height; i++)
+                for (byte j = 0; j < width; j++)
+                    policka.Add(new Policko(j, i));
         }
 
-        public void upravLod(byte indexLode, Souradnice referencniBod)
+        public bool UmistiLod(byte indexLode, Souradnice referencniBod)
         {
-            foreach(Policko pole in policko)
+            foreach(Policko pole in policka)
             {
-                if (pole.JeSoucastLodi <= 0) { }
-            }
+                if (pole.JeSoucastLodi <= 0) { return true; }
+            } return false;
         }
 
         public void pridejLod(Lod NovaLod)
@@ -54,7 +61,7 @@ namespace NavalBattle
         public Policko GetPolickoXY(byte x, byte y)
         {
             int indexPolicka = y * width + x;
-            return policko[indexPolicka];
+            return policka[indexPolicka];
         }
 
         public void Rozmisteni()
