@@ -11,12 +11,7 @@ namespace NavalBattle
         private byte height;
         private byte width;
         private List<Lod> lode = new List<Lod>();
-        public static List<Policko> policka { private set; public get; }
-
-        public static HerniPole()
-        {
-            policka = new List<Policko>();
-        }
+        public List<Policko> policka { private set; get; }
 
         public HerniPole(byte height = 10, byte width = 10)    
         {

@@ -20,9 +20,19 @@ namespace NavalBattle
     /// </summary>
     public partial class MainWindow : Window
     {
+        Window gameWindow;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            gameWindow = new GameWindow();
         }
+
+        private void button_start_game_Click(object sender, RoutedEventArgs e)
+        {
+            gameWindow.Show();
+        }
+
     }
 }

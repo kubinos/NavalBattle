@@ -41,3 +41,18 @@ C:\Users\Paciik\Documents\NavalBattle\NavalBattle\obj\Debug\NavalBattle_MarkupCo
 C:\Users\Paciik\Documents\NavalBattle\NavalBattle\obj\Debug\NavalBattle.g.resources
 C:\Users\Paciik\Documents\NavalBattle\NavalBattle\obj\Debug\NavalBattle.Properties.Resources.resources
 C:\Users\Paciik\Documents\NavalBattle\NavalBattle\obj\Debug\NavalBattle.csproj.GenerateResource.Cache
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\bin\Debug\NavalBattle.exe.config
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle.exe
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle.pdb
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle.csprojResolveAssemblyReference.cache
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\GameWindow.baml
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\MainWindow.baml
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\GameWindow.g.cs
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\MainWindow.g.cs
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\App.g.cs
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle_MarkupCompile.cache
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle.g.resources
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle.Properties.Resources.resources
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle.csproj.GenerateResource.Cache
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\bin\Debug\NavalBattle.exe
+F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\bin\Debug\NavalBattle.pdb
