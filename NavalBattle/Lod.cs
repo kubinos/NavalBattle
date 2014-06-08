@@ -38,7 +38,6 @@ namespace NavalBattle
                             this.referencniBod = souradniceReferencnihoBodu;
                             return true;
                         }
-                    return false;
                 }
                 return false;
             }

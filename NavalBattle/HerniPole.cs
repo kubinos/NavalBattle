@@ -11,9 +11,9 @@ namespace NavalBattle
         private byte height;
         private byte width;
         private List<Lod> lode = new List<Lod>();
-        public static List<Policko> policka { private set; public get; }
+        public List<Policko> policka { private set; public get; }
 
-        public static HerniPole()
+        public HerniPole()
         {
             policka = new List<Policko>();
         }
@@ -36,10 +36,9 @@ namespace NavalBattle
             } return false;
         }
 
-        public void pridejLod(Lod NovaLod)
+        public void PridejLod(Lod NovaLod)
         {
             lode.Add(NovaLod);
-
         }
 
         public byte Height
