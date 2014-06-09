@@ -19,6 +19,9 @@ namespace NavalBattle
     /// </summary>
     public partial class GameWindow : Window
     {
+        private const int COL = 10;
+        private const int ROW = 10;
+
 
         public GameWindow()
         {
@@ -33,10 +36,13 @@ namespace NavalBattle
 
         private void canvas_player_MouseMove(object sender, MouseEventArgs e)
         {
-            
+//            canvas_player.MouseDown();
         }
 
-        private static void DrawDefaultLines(){
+        private void DrawDefaultLines(Canvas canvas)
+        {
+            double height = canvas.Height;
+            double width = canvas.Width;
 
         }
     }
