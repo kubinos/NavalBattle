@@ -39,10 +39,8 @@ namespace NavalBattle
 //            canvas_player.MouseDown();
         }
 
-        private void DrawDefaultLines(Canvas canvas)
+        private void canvas_player_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            double height = canvas.Height;
-            double width = canvas.Width;
 
         }
     }

@@ -10,9 +10,9 @@ namespace NavalBattle
     {
         private Dictionary<Typ, int> PoctyLodi = new Dictionary<Typ, int>();
 
-        public void PridatTypLodi(Typ typLodi, int pocetLodíKPridani)
+        public void PridatLod(Typ typLodi, int x, int y)
         {
-            PoctyLodi.Add(typLodi, pocetLodíKPridani);
+            //PoctyLodi.Add(typLodi, pocetLodíKPridani);
         }
 
     }
