@@ -22,13 +22,14 @@ namespace NavalBattle
         private const int COL = 10;
         private const int ROW = 10;
 
+        private List<Rectangle> rectangles;
 
         public GameWindow()
         {
             InitializeComponent();
-
+            rectangles = new List<Rectangle>();
         }
-
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
@@ -41,7 +42,7 @@ namespace NavalBattle
 
         private void canvas_player_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-
+            Point mouse = e.GetPosition(canvas_player);
         }
     }
 }
