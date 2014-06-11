@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\NavalBattle\NavalBattle\obj\Debug\
+=======
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\
+>>>>>>> d198652f34d79dfbc16c7441df21e39be32d655a
 NavalBattle
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\NavalBattle\NavalBattle\App.xaml
 2-114757256
 
 17592435940
 121886138872
+=======
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\App.xaml
+2-114757256
+
+17-917187755
+12-1401562060
+>>>>>>> d198652f34d79dfbc16c7441df21e39be32d655a
 GameWindow.xaml;MainWindow.xaml;
 
 False

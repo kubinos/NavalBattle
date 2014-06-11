@@ -11,10 +11,16 @@ namespace NavalBattle
         private string nazevTypuLodi;
         public List<Souradnice> souradnice = new List<Souradnice>();
 
-        public Typ(string nazevTypuLodi, List<Souradnice> souradnice)
+        public Typ()
+        {
+            nazevTypuLodi = "Ponorka";
+            souradnice.Add(new Souradnice(1,1));
+        }
+
+        /*public Typ(string nazevTypuLodi, List<Souradnice> souradnice)
         {
             this.nazevTypuLodi = nazevTypuLodi;
             this.souradnice = souradnice;
-        }
+        }*/
     }
 }

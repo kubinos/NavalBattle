@@ -10,12 +10,11 @@ namespace NavalBattle
     {
         private byte height;
         private byte width;
-        private List<Lod> lode = new List<Lod>();
-        public List<Policko> policka { private set; get; }
+        public List<Lod> lode = new List<Lod>();
+        public List<Policko> policka = new List<Policko>();
 
         public HerniPole(byte height = 10, byte width = 10)    
         {
-            policka = new List<Policko>();
             this.height = height;
             this.width = width;
             for (byte i = 0; i < height; i++)
@@ -23,18 +22,9 @@ namespace NavalBattle
                     policka.Add(new Policko(j, i));
         }
 
-        public bool UmistiLod(byte indexLode, Souradnice referencniBod)
-        {
-            foreach(Policko pole in policka)
-            {
-                if (pole.JeSoucastLodi <= 0) { return true; }
-            } return false;
-        }
-
-        public void pridejLod(Lod NovaLod)
+        public void PridejLod(Lod NovaLod)
         {
             lode.Add(NovaLod);
-
         }
 
         public byte Height

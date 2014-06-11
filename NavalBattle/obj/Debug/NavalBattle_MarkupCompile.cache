@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\NavalBattle\NavalBattle\obj\Debug\
+=======
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\
+>>>>>>> d198652f34d79dfbc16c7441df21e39be32d655a
 NavalBattle
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\NavalBattle\NavalBattle\App.xaml
+=======
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\App.xaml
+>>>>>>> d198652f34d79dfbc16c7441df21e39be32d655a
 2-114757256
 
 13-1009856298
