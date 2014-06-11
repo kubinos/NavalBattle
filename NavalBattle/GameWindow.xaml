@@ -3,17 +3,49 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="GameWindow" Height="351" Width="802">
     <Grid>
-        <Canvas x:Name="canvas_player" HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" VerticalAlignment="Top" Width="300" Background="#FFD7FDFA" MouseMove="canvas_player_MouseMove">
-            <Canvas.Effect>
-                <BlurEffect Radius="3"/>
-            </Canvas.Effect>
+        <Canvas x:Name="canvas_player" HorizontalAlignment="Left" Height="301" Margin="10,10,0,0" VerticalAlignment="Top" Width="301" MouseMove="canvas_player_MouseMove" MouseLeftButtonUp="canvas_player_MouseLeftButtonUp">
+            <Canvas.Background>
+                <DrawingBrush Stretch="None" TileMode="Tile"
+                        Viewport="0,0 30,30" ViewportUnits="Absolute">
+                    <DrawingBrush.Drawing>
+                        <GeometryDrawing>
+                            <GeometryDrawing.Geometry>
+                                <GeometryGroup>
+                                    <LineGeometry StartPoint="0,0" EndPoint="0,30"/>
+                                    <LineGeometry StartPoint="0,0" EndPoint="30,0"/>
+                                </GeometryGroup>
+                            </GeometryDrawing.Geometry>
+                            <GeometryDrawing.Pen>
+                                <Pen Thickness="1" Brush="DarkGray"/>
+                            </GeometryDrawing.Pen>
+                        </GeometryDrawing>
+                    </DrawingBrush.Drawing>
+                </DrawingBrush>
+            </Canvas.Background>
         </Canvas>
-        <Canvas x:Name="canvas_opponnent" HorizontalAlignment="Left" Height="300" Margin="484,10,0,0" VerticalAlignment="Top" Width="300" Background="#FFD7FDFA">
-            <Canvas.Effect>
-                <BlurEffect Radius="3"/>
-            </Canvas.Effect>
+
+        <Canvas x:Name="canvas_opponnent" HorizontalAlignment="Left" Height="301" Margin="479,10,0,0" VerticalAlignment="Top" Width="301">
+            <Canvas.Background>
+                <DrawingBrush Stretch="None" TileMode="Tile"
+                          Viewport="0,0 30,30" ViewportUnits="Absolute">
+                    <DrawingBrush.Drawing>
+                        <GeometryDrawing>
+                            <GeometryDrawing.Geometry>
+                                <GeometryGroup>
+                                    <LineGeometry StartPoint="0,0" EndPoint="0,30"/>
+                                    <LineGeometry StartPoint="0,0" EndPoint="30,0"/>
+                                </GeometryGroup>
+                            </GeometryDrawing.Geometry>
+                            <GeometryDrawing.Pen>
+                                <Pen Thickness="1" Brush="DarkGray"/>
+                            </GeometryDrawing.Pen>
+                        </GeometryDrawing>
+                    </DrawingBrush.Drawing>
+                </DrawingBrush>
+            </Canvas.Background>
         </Canvas>
-        <Button x:Name="button_give_up" Content="Vzdát se" HorizontalAlignment="Left" Margin="315,289,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click" Height="21"/>
+        
+        <Button x:Name="button_give_up" Content="Vzdát se" HorizontalAlignment="Left" Margin="319,289,0,0" VerticalAlignment="Top" Width="155" Click="Button_Click" Height="21"/>
 
     </Grid>
 </Window>

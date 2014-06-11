@@ -12,9 +12,9 @@ namespace NavalBattle
         HerniPole MojeHerniPole = new HerniPole();
         HerniPole SouperovoHerniPole = new HerniPole();
 
-        public void PridatTypLodi(Typ typLodi, int pocetLodíKPridani)
+        public void PridatLod(Typ typLodi, int x, int y)
         {
-            PoctyLodi.Add(typLodi, pocetLodíKPridani);
+            //PoctyLodi.Add(typLodi, pocetLodíKPridani);
         }
 
         public void PridatLod()
