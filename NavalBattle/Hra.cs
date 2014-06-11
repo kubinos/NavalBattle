@@ -20,6 +20,7 @@ namespace NavalBattle
         public void PridatMojiLod(Typ typLodi, Souradnice souradniceLodi, int rotace)
         {
             MojeHerniPole.lode.Add(new Lod(typLodi, souradniceLodi, rotace));
+
         }
 
         public HerniPole UpravMojeHerniPole
