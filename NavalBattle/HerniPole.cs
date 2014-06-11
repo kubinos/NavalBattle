@@ -18,6 +18,8 @@ namespace NavalBattle
             policka = new List<Policko>();
         }
 
+        public List<Policko> policka { private set; get; }
+
         public HerniPole(byte height = 10, byte width = 10)    
         {
             policka = new List<Policko>();

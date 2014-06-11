@@ -9,7 +9,7 @@
         </Grid.ColumnDefinitions>
         <ListBox Grid.Column="1" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="215"/>
         <TextBox HorizontalAlignment="Left" Height="18" Margin="10,291,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161" ToolTip="" IsManipulationEnabled="True"/>
-        <Button Content="Založit hru" HorizontalAlignment="Left" Height="18" Margin="176,62,0,0" VerticalAlignment="Top" Width="96"/>
+        <Button x:Name="button_start_game" Content="Založit hru" HorizontalAlignment="Left" Height="18" Margin="176,62,0,0" VerticalAlignment="Top" Width="96" Click="button_start_game_Click"/>
         <TextBox HorizontalAlignment="Left" Height="18" Margin="10,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116"/>
         <TextBox HorizontalAlignment="Left" Height="18" Margin="131,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40"/>
         <Button Content="Připojit" HorizontalAlignment="Left" Height="18" Margin="176,291,0,0" VerticalAlignment="Top" Width="96"/>

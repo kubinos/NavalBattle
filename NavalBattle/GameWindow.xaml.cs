@@ -15,13 +15,29 @@ using System.Windows.Shapes;
 namespace NavalBattle
 {
     /// <summary>
-    /// Interaction logic for Game.xaml
+    /// Interaction logic for GameWindow.xaml
     /// </summary>
-    public partial class Game : Window
+    public partial class GameWindow : Window
     {
-        public Game()
+
+        public GameWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void canvas_player_MouseMove(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private static void DrawDefaultLines(){
+
         }
     }
 }

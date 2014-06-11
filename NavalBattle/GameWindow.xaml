@@ -1,0 +1,19 @@
+﻿<Window x:Class="NavalBattle.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameWindow" Height="351" Width="802">
+    <Grid>
+        <Canvas x:Name="canvas_player" HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" VerticalAlignment="Top" Width="300" Background="#FFD7FDFA" MouseMove="canvas_player_MouseMove">
+            <Canvas.Effect>
+                <BlurEffect Radius="3"/>
+            </Canvas.Effect>
+        </Canvas>
+        <Canvas x:Name="canvas_opponnent" HorizontalAlignment="Left" Height="300" Margin="484,10,0,0" VerticalAlignment="Top" Width="300" Background="#FFD7FDFA">
+            <Canvas.Effect>
+                <BlurEffect Radius="3"/>
+            </Canvas.Effect>
+        </Canvas>
+        <Button x:Name="button_give_up" Content="Vzdát se" HorizontalAlignment="Left" Margin="315,289,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click" Height="21"/>
+
+    </Grid>
+</Window>
