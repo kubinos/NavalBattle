@@ -56,3 +56,5 @@ F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBat
 F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\obj\Debug\NavalBattle.csproj.GenerateResource.Cache
 F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\bin\Debug\NavalBattle.exe
 F:\Paciik\Visual Studio repositories\Naval Battle\NavalBattle\bin\Debug\NavalBattle.pdb
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\GameWindow.baml
+C:\_Hrdý Jakub\Škola\_Project\NavalBattle\NavalBattle\obj\Debug\GameWindow.g.cs

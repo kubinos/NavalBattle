@@ -17,9 +17,9 @@ namespace NavalBattle
             //PoctyLodi.Add(typLodi, pocetLodíKPridani);
         }
 
-        public void PridatLod()
+        public void PridatMojiLod(Typ typLodi, Souradnice souradniceLodi, int rotace)
         {
-            MojeHerniPole.PridejLod();
+            MojeHerniPole.lode.Add(new Lod(typLodi, souradniceLodi, rotace));
         }
 
         public HerniPole UpravMojeHerniPole

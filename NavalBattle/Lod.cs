@@ -28,19 +28,6 @@ namespace NavalBattle
 
         public bool ZkontrolujKoliziLodi(Souradnice souradniceReferencnihoBodu)
         {
-            foreach (Souradnice umisteni in umisteniLodiVSouradnicich)
-            {
-                foreach (Policko policko in HerniPole.policka)
-                {
-                    if ((policko.SouradnicePolicka.x == souradniceReferencnihoBodu.x) && (policko.SouradnicePolicka.y == souradniceReferencnihoBodu.y))
-                        if (!policko.JeLod)
-                        {
-                            this.referencniBod = souradniceReferencnihoBodu;
-                            return true;
-                        }
-                }
-                return false;
-            }
             return false;
         }
     }
